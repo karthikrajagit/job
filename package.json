@@ -11,9 +11,11 @@
   "dependencies": {
     "@clerk/nextjs": "^6.9.6",
     "framer-motion": "^11.16.0",
+    "mongoose": "^8.9.3",
     "next": "15.1.4",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "svix": "^1.45.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
