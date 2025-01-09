@@ -5,7 +5,7 @@ export default async function Home() {
   let jobs = null;
   try {
     const response = await fetch(process.env.URL + '/api/getall', {
-      method: 'POST',
+      method: 'GET',
       cache: 'no-store',
     })
     jobs = await response.json();
