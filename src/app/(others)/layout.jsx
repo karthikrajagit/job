@@ -31,7 +31,6 @@ export default function RootLayout({ children }) {
           </ClerkLoading>
           <ClerkLoaded>
             <Header />
-              <Intro/>
             {children}
           </ClerkLoaded>
           

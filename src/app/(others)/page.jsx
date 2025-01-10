@@ -1,6 +1,5 @@
-'use server'
-
 import Feed from '@/components/Feed';
+import Intro from '@/components/Intro';
 import React from 'react'
 
 export default async function Home() {
@@ -17,6 +16,7 @@ export default async function Home() {
   }
   return (
     <div>
+      <Intro/>
       <div className='flex flex-row gap-8'>
       <h1 className='md:text-3xl font-bold mt-8 ml-6 sm: text-2xl'>Recent Jobs</h1>
       <input
