@@ -1,4 +1,4 @@
-'use client'
+'use server'
 
 import Feed from '@/components/Feed';
 import React from 'react'
