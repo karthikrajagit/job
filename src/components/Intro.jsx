@@ -2,12 +2,12 @@ import React from "react";
 
 export default function Intro() {
   return (
-    <div className="flex flex-col md:flex-row justify-between items-center bg-blue-100 ">
+    <div className="flex flex-col md:flex-row justify-between items-center ">
       {/* Image Section */}
       <img
-        src="https://nietm.in/wp-content/uploads/2022/11/CSE3.png"
+        src="https://img.freepik.com/premium-vector/newspaper-job-search_91756-511.jpg?semt=ais_hybrid"
         alt="CSE3"
-        className="w-full h-[400px] md:w-[800px] md:h-full mb-6 md:mb-0 shadow-lg rounded-r-lg"
+        className="w-full h-[400px] md:w-[700px] md:h-[600px] mb-6 md:mb-0 shadow-lg rounded-r-lg"
       />
 
       {/* Text Section */}

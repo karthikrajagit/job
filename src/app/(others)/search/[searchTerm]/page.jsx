@@ -8,7 +8,7 @@ export default async function page({params}) {
   let data = null;
   try {
     
-    const result = await fetch(process.env.URL + '/api/search', {
+    const result = await fetch(process.env.NEXT_PUBLIC_URL + '/api/search', {
       method: 'POST',
       body: JSON.stringify({ searchTerm: searchTerm }),
       cache: 'no-store',

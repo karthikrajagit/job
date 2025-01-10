@@ -71,7 +71,7 @@ export default function Page() {
         {/* Left Section: Image */}
         <div className="md:w-[600px] flex-shrink-0 mt-8">
           <img
-            src="https://media.istockphoto.com/id/184962061/photo/business-towers.jpg?s=612x612&w=0&k=20&c=gLQLQ9lnfW6OnJVe39r516vbZYupOoEPl7P_22Un6EM="
+            src="https://d30xyenmgipudp.cloudfront.net/media/uploads/JOB-IMAGE.jpg"
             alt="Company"
             className="w-full h-[300px] md:h-full object-cover rounded-lg"
           />
