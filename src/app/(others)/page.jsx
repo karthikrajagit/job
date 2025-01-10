@@ -24,7 +24,6 @@ export default async function Home() {
       <h1 className='md:text-3xl font-bold mt-8 ml-6 sm: text-2xl'>Recent Jobs</h1>
       <Search/>
       </div>
-      
       <Feed jobs={jobs}/>
     </div>
   )
