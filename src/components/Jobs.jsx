@@ -1,3 +1,5 @@
+'use client'
+
 import React from 'react';
 import { FaBuilding } from "react-icons/fa";
 import { RiMoneyDollarCircleLine } from "react-icons/ri";
