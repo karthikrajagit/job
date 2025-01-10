@@ -5,7 +5,7 @@ export default async function page({params}) {
   const username = await params.username;
   let jobs = null
   try {
-    const result = await fetch(process.env.URL + '/api/userjobs', {
+    const result = await fetch(process.env.NEXT_PUBLIC_URL + '/api/userjobs', {
       method: 'POST',
       cache: 'no-store',
       body: JSON.stringify({ username: username })

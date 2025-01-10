@@ -7,13 +7,13 @@ export default async function Page({ params }) {
   let jobs = null
   try {
       const {username} = await params;
-      const response = await fetch(process.env.URL + '/api/getcart', {
+      const response = await fetch(process.env.NEXT_PUBLIC_URL + '/api/getcart', {
       method: 'POST',
       cache: 'no-store',
       body: JSON.stringify({ username })
     })
     cart = await response.json();
-    const getJobs = await fetch(process.env.URL + '/api/getJobs', {
+    const getJobs = await fetch(process.env.NEXT_PUBLIC_URL + '/api/getJobs', {
       method: 'POST',
       cache: 'no-store',
       body: JSON.stringify({ cart })

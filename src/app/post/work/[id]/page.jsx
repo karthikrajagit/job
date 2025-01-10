@@ -9,7 +9,7 @@ export default async function Page({ params }) {
   let job = null;
   try {
     const { id } = await params; 
-    const response = await fetch(process.env.URL + '/api/getpost',{
+    const response = await fetch(process.env.NEXT_PUBLIC_URL + '/api/getpost',{
       method: 'POST',
       cache: 'no-store',
       body: JSON.stringify({ id })
