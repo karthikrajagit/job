@@ -11,15 +11,22 @@ export default function Intro() {
       />
 
       {/* Text Section */}
-      <div className="flex flex-col justify-center items-center text-center md:ml-8">
-        <h1 className="font-bold text-5xl md:text-5xl lg:text-6xl text-blue-600">
-          FIND YOUR DREAM
+      <div className="flex flex-col items-center justify-center text-center  p-4">
+        <h1 className="font-bold text-5xl md:text-6xl lg:text-7xl text-blue-600 animate-slide-in">
+          FIND YOUR
         </h1>
-        <h1 className="font-bold text-5xl md:text-5xl lg:text-6xl">JOB</h1>
-        <h1 className="font-bold text-5xl md:text-5xl lg:text-6xl text-blue-600">
+        <span className="font-bold text-5xl md:text-6xl lg:text-7xl text-blue-800 animate-fade-in">
+          DREAM
+        </span>
+        <h1 className="font-bold text-5xl md:text-6xl lg:text-7xl animate-fade-in">
+          JOBS
+        </h1>
+        <h1 className="font-bold text-5xl md:text-6xl lg:text-7xl text-blue-600 animate-slide-in delay-200">
           EASILY AND QUICKLY
         </h1>
       </div>
+
+
     </div>
   );
 }

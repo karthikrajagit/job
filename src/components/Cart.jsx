@@ -79,7 +79,7 @@ export default function Cart({ job }) {
         <span className="ml-1">{date}</span>
       </div>
     </div>
-    <button className="mt-8 w-32 py-2 px-4 bg-blue-600 text-white rounded-md" onClick={handleRemove}>
+    <button className="mt-8 w-32 py-2 px-4 bg-blue-600 text-white rounded-md hover:bg-blue-800" onClick={handleRemove}>
       Remove from Cart
     </button>
   </div>

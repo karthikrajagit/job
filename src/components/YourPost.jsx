@@ -79,7 +79,7 @@ export default function YourPost({ job }) {
         <span className="ml-1">{date}</span>
       </div>
     </div>
-    <button className="mt-8 w-32 py-2 px-4 bg-red-600 text-white rounded-md" onClick={handleRemove}>
+    <button className="mt-8 w-32 py-2 px-4 bg-red-600 hover:bg-red-800 text-white rounded-md" onClick={handleRemove}>
       Delete Job
     </button>
   </div>

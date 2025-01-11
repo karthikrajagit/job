@@ -27,9 +27,9 @@ export default function Header() {
     <div>
       <header className="p-4 flex justify-between align-center bg-blue-200 border-b border-gray-500">
         <Link href="/">
-          <h1 className="text-3xl font-bold cursor-pointer hover:opacity-85">Job</h1>
+          <h1 className="text-3xl font-bold cursor-pointer hover:opacity-85">Jobs</h1>
         </Link>
-        <div className='md:flex gap-8 align-center justify-center mt-2 sm: hidden'>
+        <div className='md:flex gap-8 align-center justify-center mt-2 sm: hidden md:ml-10'>
           <Link href='/'>
           <span className='font-bold cursor-pointer hover:text-blue-600'>Home</span>
           </Link>
