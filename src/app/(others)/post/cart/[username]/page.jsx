@@ -32,7 +32,7 @@ export default async function Page({ params }) {
       className="md:w-20 h-20 sm:h-10 w-10 md:mt-4 ml-2 text-gray-700 cursor-pointer hover:text-blue-500 transition"
       />
       </Link>
-      {jobs.length === 0 && (<h1 className='text-center font-bold pt-6 text-3xl flex items-center'>No results found</h1>) }
+      {jobs.length === 0 && (<h1 className='text-center pt-6 text-3xl'>No results found</h1>) }
       {jobs.map((job) => (
         <Cart key={job._id} job={job} />))} 
     </div>
