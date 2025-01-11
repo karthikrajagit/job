@@ -25,7 +25,7 @@ export const POST = async (req) => {
                 lastdate: data.lastdate
             }
         );
-        newPost.save();
+        await newPost.save();
         return new Response(JSON.stringify(newPost), { status: 201 });
     } catch (error) {
         return new Response('Failed to create a new post', { status: 500 });
