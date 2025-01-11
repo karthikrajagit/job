@@ -1,7 +1,9 @@
 import Buttons from '@/components/Buttons';
+import Link from 'next/link';
 import React from 'react';
 import { FaBuilding } from 'react-icons/fa';
 import { FaLocationDot } from 'react-icons/fa6';
+import { IoMdArrowRoundBack } from 'react-icons/io';
 import { RiMoneyDollarCircleLine } from 'react-icons/ri';
 
 
@@ -21,7 +23,12 @@ export default async function Page({ params }) {
   
   
   return (
-    <div className="flex flex-col justify-center align-center mt-8">
+    <div className="flex flex-col justify-center align-center mt-2 ">
+       <Link href='/'>
+      <IoMdArrowRoundBack
+      className="md:w-20 h-20 sm:h-10 w-10  md:mt-4 ml-2 text-gray-700 cursor-pointer hover:text-blue-500 transition"
+      />
+      </Link>
       <div className="items-center p-6 rounded-lg bg-slate-100 gap-8">
         {/* Job Title */}
         <h1 className="text-3xl font-bold text-black mb-2">{job?.title}</h1>

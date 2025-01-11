@@ -64,7 +64,7 @@ export default function Page() {
       >
         {/* Back Icon */}
         <IoMdArrowRoundBack
-          className="md:w-20 h-20 sm:h-10 w-10 text-gray-700 cursor-pointer hover:text-blue-500 transition mb-4 md:mb-0 md:mr-6"
+          className="md:w-20 h-20 sm:h-10 w-10 text-gray-700 cursor-pointer hover:text-blue-500 transition  md:mb-0 md:mr-6"
           onClick={() => router.back()}
         />
 
@@ -78,7 +78,7 @@ export default function Page() {
         </div>
 
         {/* Right Section: Form */}
-        <div className="md:w-full sm:w-full flex flex-col gap-6 p-6">
+        <div className="w-full flex flex-col gap-6 p-6">
           <h2 className="text-3xl font-semibold text-gray-800">Post a Job</h2>
           <input
             type="text"
