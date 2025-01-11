@@ -2,6 +2,8 @@ import Feed from '@/components/Feed';
 import Intro from '@/components/Intro';
 import Search from '@/components/Search';
 import React from 'react';
+import location from 'location'
+
 
 export default async function Home() {
   let jobs = null;
@@ -11,6 +13,7 @@ export default async function Home() {
       cache: 'no-store', // Disable caching for dynamic data
     });
     jobs = await response.json();
+    
   } catch (error) {
     console.error('Error fetching jobs:', error);
   }
