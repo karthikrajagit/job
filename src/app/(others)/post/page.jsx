@@ -49,7 +49,6 @@ export default function Page() {
       });
 
       const job = await response.json();
-      location.reload();
       router.push('/');
       
     } catch (error) {
