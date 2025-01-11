@@ -7,7 +7,7 @@ export default async function Home() {
   let jobs = null;
   try {
     const response = await fetch(process.env.NEXT_PUBLIC_URL + '/api/getall', {
-      method: 'GET', // Change POST to GET if your API supports GET
+      method: 'POST', // Change POST to GET if your API supports GET
       cache: 'no-store', // Disable caching for dynamic data
     });
     jobs = await response.json();
